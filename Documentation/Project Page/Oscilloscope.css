@@ -71,7 +71,7 @@ body {
 	overflow: hidden;
 	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	padding: 0;
-	border-style: solid;
+	border-style: none;
 	height: 40px;
 	line-height: 0;
 }
@@ -96,7 +96,7 @@ body {
 	font-size: 12px;
 	text-align: center;
 	right: 0;
-	border-style: solid;
+	border-style: none;
 	top: 40px;
 	height: 100%;
 }
