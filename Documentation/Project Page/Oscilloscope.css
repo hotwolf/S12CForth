@@ -6,11 +6,9 @@ body {
 	margin:  0;
 	padding: 0;
 	z-index: 0;
-	color: #c1fff4;
-	text-shadow: #fff 0 0 100px;
-	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	overflow: hidden;
-}
+	overflow: auto;
+	font-family: "Synchro LET", "OCR A Extended", "Agency FB", Consolas, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+ }
 
 #background1 {
 	/* Background gradient for Webkit browsers */
@@ -59,7 +57,9 @@ body {
 
 #header {
 	width: 100%;
+	height: 80px;
 	margin:  0;
+	padding: 0;
 	display: block;
 	position: absolute;
 	z-index: 3;
@@ -69,70 +69,74 @@ body {
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
 	overflow: hidden;
-	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	padding: 0;
-	border-style: none;
-	height: 40px;
-	line-height: 0;
+	font-weight: bold;
 }
 
 #header h1 {
-	font-weight: bold;
 	font-size: 32px;
 }
 
 #main {
-	width: 100%;
+	width: 75%;
 	margin:  0;
-	padding: 0;
-	display: block;
+	padding: 20px;
+	display: inline;
 	position: fixed;
 	z-index: 3;
-	overflow: auto;
-    left: 0;
-	color: #c1fff4;
+	top: 80px;
+ 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
-	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-size: 12px;
+	font-weight: bold;
+	font-size: 18px;
 	text-align: center;
 	right: 0;
-	border-style: none;
-	top: 40px;
-	height: 100%;
+	height: auto;
 }
 
 #main h1 {
-	font-weight: bold;
 	font-size: 22px;
 	text-align: center;
 }
 
+#video {
+	width: 480px;
+	position: static;
+	right: 0;
+	display: inline;
+	bottom: 0;
+	padding: 10px;
+}
+
 #index {
-	width: 40%;
-    height: 45%;
+	width: 25%;
 	margin:  0;
-	padding: 10;
+	padding: 0;
 	display: block;
 	position: absolute;
 	z-index: 3;
-	top: 30px;
-	right: 0;
+	bottom: 0px;
+    left: 0;
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
 	overflow: hidden;
-	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
 	font-size: 12px;
-	text-align: right;
+	text-align: left;
 }
 
 #index h1 {
-	font-weight: bold;
 	font-size: 22px;
 }
 
 #index h2 {
-	font-weight: bold;
 	font-size: 18px;
+}
+
+#index a {
+	color: #c1fff4;
+	font-size: 16px;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 #news {
@@ -148,18 +152,16 @@ body {
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
 	overflow: hide;
-	font-family: "Synchro LET", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
 	font-size: 12px;
 	text-align: right;
 }
 
 #news h1 {
-	font-weight: bold;
 	font-size: 22px;
 }
 
 #news h2 {
-	font-weight: bold;
 	font-size: 18px;
 }
 
