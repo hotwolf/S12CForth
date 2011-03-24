@@ -8,7 +8,8 @@ body {
 	z-index: 0;
 	overflow: auto;
 	font-family: "Synchro LET", "OCR A Extended", "Agency FB", Consolas, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
- }
+	display: run-in;
+}
 
 #background1 {
 	/* Background gradient for Webkit browsers */
@@ -20,11 +21,11 @@ body {
 	height: 100%;
 	margin:  0;
 	padding: 0;
-	display: block;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 }
 
 #background2 {
@@ -34,11 +35,11 @@ body {
 	height: 100%;
 	margin:  0;
 	padding: 0;
-	display: block;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 }
 
 #background3 {
@@ -48,11 +49,11 @@ body {
 	height: 100%;
 	margin:  0;
 	padding: 0;
-	display: block;
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 }
 
 #header {
@@ -60,8 +61,6 @@ body {
 	height: 80px;
 	margin:  0;
 	padding: 0;
-	display: block;
-	position: absolute;
 	z-index: 3;
 	top: 0;
 	left: 0;
@@ -70,58 +69,26 @@ body {
 	text-shadow: #fff 0 0 100px;
 	overflow: hidden;
 	font-weight: bold;
+	position: relative;
 }
 
 #header h1 {
 	font-size: 32px;
 }
 
-#main {
-	width: 75%;
-	margin:  0;
-	padding: 20px;
-	display: inline;
-	position: fixed;
-	z-index: 3;
-	top: 80px;
- 	color: #c1fff4;
-	text-shadow: #fff 0 0 100px;
-	font-weight: bold;
-	font-size: 18px;
-	text-align: center;
-	right: 0;
-	height: auto;
-}
-
-#main h1 {
-	font-size: 22px;
-	text-align: center;
-}
-
-#video {
-	width: 480px;
-	position: static;
-	right: 0;
-	display: inline;
-	bottom: 0;
-	padding: 10px;
-}
-
 #index {
-	width: 25%;
+	width: 20%;
 	margin:  0;
 	padding: 0;
-	display: block;
-	position: absolute;
 	z-index: 3;
-	bottom: 0px;
-    left: 0;
 	color: #c1fff4;
 	text-shadow: #fff 0 0 100px;
 	overflow: hidden;
 	font-weight: bold;
 	font-size: 12px;
 	text-align: left;
+	float: left;
+	position: relative;
 }
 
 #index h1 {
@@ -138,6 +105,35 @@ body {
 	text-decoration: none;
 	list-style-type: none;
 }
+
+#main {
+	margin:  0;
+	padding: 20px;
+	z-index: 3;
+ 	color: #c1fff4;
+	text-shadow: #fff 0 0 100px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	float: right;
+	position: relative;
+	width: 75%;
+}
+
+#main h1 {
+	font-size: 22px;
+	text-align: center;
+}
+
+#video {
+	width: 480px;
+	position: static;
+	right: 0;
+	display: inline;
+	bottom: 0;
+	padding: 10px;
+}
+
 
 #news {
 	width: 40%;
