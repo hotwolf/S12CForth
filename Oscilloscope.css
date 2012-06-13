@@ -164,7 +164,8 @@ body {
 }
 
 
-#main #content .video{
+#main #content div.video p{
+	text-align: center;
 	margin: 12px 0;
 }
 
