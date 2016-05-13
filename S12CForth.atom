@@ -10,7 +10,7 @@
     <author>
         <name>Dirk Heisswolf</name>
     </author>
-    <rights>Copyright (c) 2010-2013 Dirk Heisswolf</rights>
+    <rights>Copyright (c) 2010-2016g Dirk Heisswolf</rights>
     {% for post in site.posts %}
     <entry>
         <title>{{ post.title }}</title>
